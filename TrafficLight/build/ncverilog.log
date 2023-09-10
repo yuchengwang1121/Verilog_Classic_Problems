@@ -1,5 +1,5 @@
 ncverilog(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
-TOOL:	ncverilog	15.20-s084: Started on Sep 11, 2023 at 03:04:26 CST
+TOOL:	ncverilog	15.20-s084: Started on Sep 11, 2023 at 03:08:24 CST
 ncverilog
 	/home/YuChengWang/Verilog_Classic_Problems/TrafficLight/sim/traffic_light_tb.v
 	/home/YuChengWang/Verilog_Classic_Problems/TrafficLight/syn/traffic_light_syn.v
@@ -10,59 +10,9 @@ ncverilog
 	+define+FSDB_FILE="traffic_light.fsdb"
 	+define+SDF
 	+define+SDFFILE="/home/YuChengWang/Verilog_Classic_Problems/TrafficLight/syn/traffic_light_syn.sdf"
-file: /home/YuChengWang/Verilog_Classic_Problems/TrafficLight/sim/traffic_light_tb.v
-	module worklib.traffic_light_tb:v
-		errors: 0, warnings: 0
-file: /home/YuChengWang/Verilog_Classic_Problems/TrafficLight/syn/traffic_light_syn.v
-	module worklib.traffic_light_DW01_inc_0_DW01_inc_1:v
-		errors: 0, warnings: 0
-	module worklib.traffic_light:v
-		errors: 0, warnings: 0
-file: /usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v
-	module tsmc13_neg.INVX3:v
-		errors: 0, warnings: 0
-	module tsmc13_neg.AOI22X1:v
-		errors: 0, warnings: 0
-	module tsmc13_neg.AOI221XL:v
-		errors: 0, warnings: 0
-	module tsmc13_neg.AOI2BB1X1:v
-		errors: 0, warnings: 0
-	module tsmc13_neg.NAND2X1:v
-		errors: 0, warnings: 0
-	module tsmc13_neg.NAND4BX1:v
-		errors: 0, warnings: 0
-	module tsmc13_neg.NOR2X1:v
-		errors: 0, warnings: 0
-	module tsmc13_neg.NOR3X2:v
-		errors: 0, warnings: 0
-	module tsmc13_neg.NOR2BX1:v
-		errors: 0, warnings: 0
-	module tsmc13_neg.OR2X1:v
-		errors: 0, warnings: 0
-	module tsmc13_neg.OAI22XL:v
-		errors: 0, warnings: 0
-	module tsmc13_neg.OAI221XL:v
-		errors: 0, warnings: 0
-	module tsmc13_neg.OAI32X1:v
-		errors: 0, warnings: 0
-	module tsmc13_neg.OAI2BB2XL:v
-		errors: 0, warnings: 0
-	module tsmc13_neg.OA21XL:v
-		errors: 0, warnings: 0
-	module tsmc13_neg.XOR2X1:v
-		errors: 0, warnings: 0
-	module tsmc13_neg.CLKBUFX3:v
-		errors: 0, warnings: 0
-	module tsmc13_neg.CLKINVX1:v
-		errors: 0, warnings: 0
-	module tsmc13_neg.ADDHXL:v
-		errors: 0, warnings: 0
-	module tsmc13_neg.DFFRX1:v
-		errors: 0, warnings: 0
-	module tsmc13_neg.DFFSX1:v
-		errors: 0, warnings: 0
-	primitive tsmc13_neg.udp_dff:v
-		errors: 0, warnings: 0
+Recompiling... reason: file './traffic_light_syn.sdf' is newer than expected.
+	expected: Mon Sep 11 03:04:26 2023
+	actual:   Mon Sep 11 03:08:23 2023
 		Caching library 'worklib' ....... Done
 		Caching library 'tsmc13_neg' ....... Done
 	Elaborating the design hierarchy:
@@ -112,6 +62,8 @@ ncelab: *W,CUVWSP (../syn/traffic_light_syn.v,54|22): 1 output port was not conn
 ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
 
 	Reading SDF file from location "traffic_light_syn.sdf"
+	Compiled SDF file "traffic_light_syn.sdf.X" older than source SDF file "traffic_light_syn.sdf".
+	Recompiling.
 	Writing compiled SDF file to "traffic_light_syn.sdf.X".
 	Annotating SDF timing data:
 		Compiled SDF file:     traffic_light_syn.sdf.X
@@ -127,24 +79,7 @@ ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
 		 Path Delays	         222	         222	      100.00
 		      $width	          48	          48	      100.00
 		  $setuphold	          48	          48	      100.00
-	Building instance overlay tables: 
-    $readmemb(`ANSTXT, ans);
-                         |
-ncelab: *W,MEMODR (../sim/traffic_light_tb.v,80|25): $readmem default memory order incompatible with IEEE1364.
-.................... Done
-	Generating native compiled code:
-		tsmc13_neg.ADDHXL:v <0x2ce953d2>
-			streams:   0, words:     0
-		tsmc13_neg.DFFRX1:v <0x5105f876>
-			streams:   0, words:     0
-		tsmc13_neg.DFFSX1:v <0x2042cb29>
-			streams:   0, words:     0
-		tsmc13_neg.XOR2X1:v <0x508c2e50>
-			streams:   0, words:     0
-		worklib.traffic_light:v <0x4e526926>
-			streams:   0, words:     0
-		worklib.traffic_light_tb:v <0x49812cb2>
-			streams:  14, words: 16855
+	Building instance overlay tables: .................... Done
 	Building instance specific data structures.
 	Loading native compiled code:     .................... Done
 	Design hierarchy summary:
@@ -192,4 +127,4 @@ FSDB Dumper for IUS, Release Verdi_O-2018.09, Linux x86_64/64bit, 08/30/2018
 Simulation complete via $finish(1) at time 81921 NS + 0
 ../sim/traffic_light_tb.v:85     $finish;
 ncsim> exit
-TOOL:	ncverilog	15.20-s084: Exiting on Sep 11, 2023 at 03:04:27 CST  (total: 00:00:01)
+TOOL:	ncverilog	15.20-s084: Exiting on Sep 11, 2023 at 03:08:25 CST  (total: 00:00:01)

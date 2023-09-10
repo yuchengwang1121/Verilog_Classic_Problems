@@ -84,9 +84,9 @@ argv[7]=+define+FSDB_FILE="traffic_light.fsdb"
 argv[8]=+define+SDF
 argv[9]=+define+SDFFILE="/home/YuChengWang/Verilog_Classic_Problems/TrafficLight/syn/traffic_light_syn.sdf"
 85 profile - 100
-          CPU/Mem usage: 0.040 sys,  0.030 user,  89.74M sys,  0.00M vm
+          CPU/Mem usage: 0.040 sys,  0.040 user,  89.74M sys,  0.00M vm
 86 VC callback profile - scalar:0 vector:0
-87 Mon Sep 11 03:04:27 2023
+87 Mon Sep 11 03:08:25 2023
 88 pliAppInit
 89 FSDB_GATE is disabled.
 90 Enable Parallel Dumping.
@@ -105,7 +105,7 @@ argv[9]=+define+SDFFILE="/home/YuChengWang/Verilog_Classic_Problems/TrafficLight
 103 Cell instance `traffic_light_tb.ul.\GtoY_reg[0] '.
 104 *Verdi* : End of traversing.
 105 fsdbDumpvars traverse var: profile - 
-          CPU/Mem usage: 0.040 sys,  0.040 user,  177.07M sys,  0.00M vm
+          CPU/Mem usage: 0.040 sys,  0.050 user,  177.07M sys,  0.00M vm
                    incr: 0.000 sys,  0.000 user,  4.24M sys,  0.00M vm
                    accu: 0.000 sys,  0.000 user,  4.24M sys,  0.00M vm
               accu incr: 0.000 sys,  0.000 user,  4.24M sys,  0.00M vm
@@ -115,9 +115,9 @@ argv[9]=+define+SDFFILE="/home/YuChengWang/Verilog_Classic_Problems/TrafficLight
                  accu: 561 var,  189 idcode,  189 callback
             accu incr: 561 var,  189 idcode,  189 callback
 106 VC callback profile - scalar:0 vector:0
-107 Mon Sep 11 03:04:27 2023
+107 Mon Sep 11 03:08:25 2023
 108 fsdbDumpvars: profile - 
-          CPU/Mem usage: 0.040 sys,  0.040 user,  178.12M sys,  0.00M vm
+          CPU/Mem usage: 0.040 sys,  0.050 user,  178.12M sys,  0.00M vm
                    incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
                    accu: 0.000 sys,  0.000 user,  5.29M sys,  0.00M vm
               accu incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
@@ -127,28 +127,28 @@ argv[9]=+define+SDFFILE="/home/YuChengWang/Verilog_Classic_Problems/TrafficLight
                  accu: 561 var,  189 idcode,  189 callback
             accu incr: 0 var,  0 idcode,  0 callback
 109 VC callback profile - scalar:186 vector:3
-110 Mon Sep 11 03:04:27 2023
+110 Mon Sep 11 03:08:25 2023
 111 sps_call_fsdbDumpMDA at 0 : /home/YuChengWang/Verilog_Classic_Problems/TrafficLight/sim/traffic_light_tb.v(47)
 112 *Verdi* : Begin traversing the MDAs, layer (0).
 113 *Verdi* : Enable +mda and +packedmda dumping.
 114 Cell instance `traffic_light_tb.ul.\GtoY_reg[0] '.
 115 *Verdi* : End of traversing the MDAs.
 116 fsdbDumpMDA traverse var: profile - 
-          CPU/Mem usage: 0.040 sys,  0.060 user,  179.20M sys,  0.00M vm
-                   incr: 0.000 sys,  0.020 user,  1.08M sys,  0.00M vm
-                   accu: 0.000 sys,  0.020 user,  1.08M sys,  0.00M vm
-              accu incr: 0.000 sys,  0.020 user,  1.08M sys,  0.00M vm
+          CPU/Mem usage: 0.050 sys,  0.060 user,  179.20M sys,  0.00M vm
+                   incr: 0.010 sys,  0.010 user,  1.08M sys,  0.00M vm
+                   accu: 0.010 sys,  0.010 user,  1.08M sys,  0.00M vm
+              accu incr: 0.010 sys,  0.010 user,  1.08M sys,  0.00M vm
 
           Count usage: 8753 var,  8381 idcode,  8382 callback
                  incr: 8192 var,  8192 idcode,  8193 callback
                  accu: 8192 var,  8192 idcode,  8193 callback
             accu incr: 8192 var,  8192 idcode,  8193 callback
 117 VC callback profile - scalar:186 vector:3
-118 Mon Sep 11 03:04:27 2023
+118 Mon Sep 11 03:08:25 2023
 119 fsdbDumpMDA: profile - 
-          CPU/Mem usage: 0.040 sys,  0.060 user,  179.47M sys,  0.00M vm
+          CPU/Mem usage: 0.050 sys,  0.060 user,  179.47M sys,  0.00M vm
                    incr: 0.000 sys,  0.000 user,  0.27M sys,  0.00M vm
-                   accu: 0.000 sys,  0.020 user,  1.35M sys,  0.00M vm
+                   accu: 0.010 sys,  0.010 user,  1.35M sys,  0.00M vm
               accu incr: 0.000 sys,  0.000 user,  0.27M sys,  0.00M vm
 
           Count usage: 8753 var,  8381 idcode,  8382 callback
@@ -156,16 +156,16 @@ argv[9]=+define+SDFFILE="/home/YuChengWang/Verilog_Classic_Problems/TrafficLight
                  accu: 8192 var,  8192 idcode,  8193 callback
             accu incr: 0 var,  0 idcode,  0 callback
 120 VC callback profile - scalar:186 vector:8195
-121 Mon Sep 11 03:04:27 2023
+121 Mon Sep 11 03:08:25 2023
 122 End of simulation at 81921000
 123 VC callback profile - scalar:270249 vector:24601
-124 Mon Sep 11 03:04:27 2023
+124 Mon Sep 11 03:08:25 2023
 125 Begin FSDB profile info:
 126 FSDB Writer : bc1(270249) bcn(24601) mtf/stf(0/0)
 FSDB Writer elapsed time : flush(0.006459) io wait(0.000000) theadpool wait(0.000000) target functin(0.000000)
 FSDB Writer cpu time : MT Compression : 0
 127 End FSDB profile info
 128 Parallel profile    -  Flush:4 Expand:0 ProduceWait:0 ConsumerWait:0 BlockUsed:2
-129                        ProduceTime:0.159808625 ConsumerTime:0.022194969 Buffer:64MB
+129                        ProduceTime:0.162315512 ConsumerTime:0.023078697 Buffer:64MB
 130 SimExit
 131 Sim process exit
