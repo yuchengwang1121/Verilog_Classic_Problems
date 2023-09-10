@@ -1,0 +1,8 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-INCDIR
+/home/YuChengWang/Verilog_Classic_Problems/TrafficLight/src
+-DEFINE
+FSDB_FILE=\"traffic_light.fsdb\"

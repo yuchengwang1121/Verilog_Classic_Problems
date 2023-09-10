@@ -1,0 +1,13 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+/home/YuChengWang/Verilog_Classic_Problems/TrafficLight/sim/traffic_light_tb.v
+/home/YuChengWang/Verilog_Classic_Problems/TrafficLight/syn/traffic_light_syn.v
+-v
+/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v
++nc64bit
++access+r
++define+FSDB_FILE=\"traffic_light.fsdb\"
++define+SDF
++define+SDFFILE=\"/home/YuChengWang/Verilog_Classic_Problems/TrafficLight/syn/traffic_light_syn.sdf\"

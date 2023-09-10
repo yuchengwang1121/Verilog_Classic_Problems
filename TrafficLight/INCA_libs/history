@@ -1,0 +1,7 @@
+//
+// File created by:  irun
+// Do not modify this file
+
+s1::(11Sep2023:02:38:54):( ncverilog /home/YuChengWang/Verilog_Classic_Problems/TrafficLight/sim/traffic_light_tb.v +incdir+/home/YuChengWang/Verilog_Classic_Problems/TrafficLight/src +nc64bit +access+r +define+FSDB_FILE="traffic_light.fsdb" )
+s2::(11Sep2023:02:42:15):( ncverilog /home/YuChengWang/Verilog_Classic_Problems/TrafficLight/sim/traffic_light_tb.v /home/YuChengWang/Verilog_Classic_Problems/TrafficLight/src/traffic_light.v +incdir+/home/YuChengWang/Verilog_Classic_Problems/TrafficLight/src +nc64bit +access+r +define+FSDB_FILE="traffic_light.fsdb" )
+s3::(11Sep2023:02:45:00):( ncverilog /home/YuChengWang/Verilog_Classic_Problems/TrafficLight/sim/traffic_light_tb.v /home/YuChengWang/Verilog_Classic_Problems/TrafficLight/src/traffic_light.v +incdir+/home/YuChengWang/Verilog_Classic_Problems/TrafficLight/src +nc64bit +access+r +define+FSDB_FILE="traffic_light.fsdb" )

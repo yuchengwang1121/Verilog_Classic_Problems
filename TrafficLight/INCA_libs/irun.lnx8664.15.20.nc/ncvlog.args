@@ -1,0 +1,22 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-XLMODE
+./INCA_libs/irun.lnx8664.15.20.nc
+-RUNMODE
+/home/YuChengWang/Verilog_Classic_Problems/TrafficLight/sim/traffic_light_tb.v
+/home/YuChengWang/Verilog_Classic_Problems/TrafficLight/src/traffic_light.v
+-INCDIR
+/home/YuChengWang/Verilog_Classic_Problems/TrafficLight/src
+-DEFINE
+FSDB_FILE=\"traffic_light.fsdb\"
+-CDSLIB
+./INCA_libs/irun.lnx8664.15.20.nc/cdsrun.lib
+-HDLVAR
+./INCA_libs/irun.lnx8664.15.20.nc/hdlrun.var
+-MESSAGES
+-UPDATE
+-XLLIBSTORE
+./INCA_libs/irun.lnx8664.15.20.nc/xllibs
+-ALLOWUNBOUND
